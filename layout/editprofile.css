@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
+}
+@keyframes example {
+    0%   {color:red; text-shadow: 2px 2px red;}
+    25%  {color:darkorange; text-shadow: 2px 2px darkorange;}
+    50%  {color:yellow; text-shadow: 2px 2px yellow;}
+    75%  {color:greenyellow; text-shadow: 2px 2px greenyellow;}
+    100% {color:deepskyblue; text-shadow: 2px 2px deepskyblue;}
+}
+form{
+    margin: 0 auto;
+    width: 250px;
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+.form-group{
+    width: 200px;
+}

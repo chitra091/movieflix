@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
+}
+@keyframes example {
+    0%   {color:red; text-shadow: 2px 2px red;}
+    25%  {color:darkorange; text-shadow: 2px 2px darkorange;}
+    50%  {color:yellow; text-shadow: 2px 2px yellow;}
+    75%  {color:greenyellow; text-shadow: 2px 2px greenyellow;}
+    100% {color:deepskyblue; text-shadow: 2px 2px deepskyblue;}
+}
+.btn-group-vertical{
+    width: 120px;
+    text-align: center;
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+    color: lightgray;
+}
+.btn-default{
+    background-color: gray;
+    color: lightgray;
+}
