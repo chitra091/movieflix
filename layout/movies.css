@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
+}
+@keyframes example {
+    0%   {color:red; text-shadow: 2px 2px red;}
+    25%  {color:darkorange; text-shadow: 2px 2px darkorange;}
+    50%  {color:yellow; text-shadow: 2px 2px yellow;}
+    75%  {color:greenyellow; text-shadow: 2px 2px greenyellow;}
+    100% {color:deepskyblue; text-shadow: 2px 2px deepskyblue;}
+}
+.btn-group-vertical{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: lightgray;
+    width: 205px;
+    padding: 0px;
+    margin: 0px;
+}
+.btn-default{
+    background-color: gray;
+    color: lightgray;
+    width: 100%;
+    height: 57px;
+}
+.col-sm-2{
+    border: 1px solid gray;
+    height: 150px;
+}
+#sidenav{
+    border: none;
+}
+img{
+    padding: 2px;
+}
+li a{
+    color: lightgray;
+}
